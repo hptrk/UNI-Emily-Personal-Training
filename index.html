@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/media/logo.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS/Icons/Bundle -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap override / print view -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/printView.css" media="print" />
+
+    <!-- font size switcher script -->
+    <script src="scripts/fontSizeSwitcher.js"></script>
+
+    <title>Emily's - Home</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-features fw-bold hover rounded-3 shadow-sm"
+      >
+        <a
+          href="#content"
+          class="skip-to-content alert alert-primary"
+          tabindex="0"
+          >Skip to content!</a
+        >
+        <div class="container-fluid px-4">
+          <a
+            class="navbar-brand d-flex align-items-center gap-3"
+            href="index.html"
+          >
+            <img
+              src="./media/logo.png"
+              alt="Emily's Personal Training Logo"
+              width="50"
+            />
+            <span class="fw-semibold"> Emily's Personal Training</span></a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-0 text-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link rounded active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded" href="reviews.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded" href="booking.html">Booking</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="nav-link rounded font-size-switcher d-inline w-100"
+                >
+                  Big font
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bg">
+      <!-- Header, because it acts like a banner inside the body -->
+      <header class="w-100 h-auto p-lg-5 text-center p-4">
+        <h1>Welcome to my page!</h1>
+        <p class="mb-0">
+          I'm thrilled to have you here on your journey to a healthier, fitter
+          you
+        </p>
+      </header>
+      <main
+        class="container bg-container shadow rounded-4 p-lg-5 mt-md-3 mb-md-5 mt-sm-0 p-4"
+        id="content"
+      >
+        <!-- INTRODUCTION -->
+        <section class="row gx-5 mb-5">
+          <div class="col-lg-6 col-sm-12 mt-lg-auto mb-lg-auto mb-5">
+            <h2 class="text-uppercase mb-0 fw-bold">Hey!</h2>
+            <h2 class="text-uppercase fw-bold">I'm Emily&#128522;</h2>
+            <p>
+              “If it doesn’t <strong class="fw-semibold">challange</strong> you,
+              it won’t <strong class="fw-semibold">change</strong> you.” It’s my
+              slogan and I will <strong class="fw-semibold">help</strong> you be
+              the best you can be. I’m Emily Jones, I’ve been a Fitness Trainer
+              since 2010, Fitness, Health, and Lifestyle Influencer. &#129361;
+            </p>
+            <button type="button" class="btn btn-primary shadow btn-lg me-2">
+              Booking
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg shadow"
+            >
+              Classes
+            </button>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <a href="media/girl1.jpg" target="_blank" class="preview">
+              <img
+                src="media/girl1_small.jpg"
+                alt="A woman with brown hair posing on a square"
+                title="A woman with brown hair posing on a square"
+                class="img-fluid rounded shadow-lg"
+              />
+            </a>
+          </div>
+        </section>
+        <!-- FEATURES -->
+        <section class="row gx-5 justify-content-center">
+          <div class="col-xl-8 col-sm-12 mb-sm-5">
+            <div
+              class="row bg-features shadow h-100 p-3 rounded-4 justify-content-center"
+            >
+              <div
+                class="col-md-4 col-sm-12 text-lg-start text-center px-md-2 px-sm-5 mb-md-0 mb-sm-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="iconWithBg1 rounded-5 p-2 shadow"
+                  width="42"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Zm3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3h7.5Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <h4 class="mb-1 mt-2 fw-bold">Private Session</h4>
+                <p class="fw-medium">
+                  Indulge in focused, one-on-one guidance tailored to your
+                  fitness goals &#127942; and abilities.
+                </p>
+              </div>
+              <div
+                class="col-md-4 col-sm-12 text-lg-start text-center px-md-2 px-sm-5 mb-md-0 mb-sm-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="iconWithBg2 rounded-5 p-2 shadow"
+                  width="42"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z"
+                  />
+                </svg>
+                <h4 class="mb-1 mt-2 fw-bold">Group Class</h4>
+                <p class="fw-medium">
+                  Join our energetic group sessions &#128109; for a fun and
+                  motivating workout experience.
+                </p>
+              </div>
+              <div
+                class="col-md-4 col-sm-12 text-lg-start text-center px-md-2 px-sm-5 mb-md-0 mb-sm-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="iconWithBg3 rounded-5 p-2 shadow"
+                  width="42"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 5.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75Zm4.878 13.543 1.872-7.662 1.872 7.662h-3.744Zm-9.756 0L5.25 8.131l-1.872 7.662h3.744Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <h4 class="mb-1 mt-2 fw-bold">Program & Diet</h4>
+                <p class="fw-medium">
+                  Transform your lifestyle with expertly crafted diet plans
+                  &#127860; to fuel your journey.
+                </p>
+              </div>
+            </div>
+          </div>
+          <article
+            class="col-xl-4 col-sm-12 text-lg-center text-xl-start align-content-center"
+          >
+            <h3 class="fw-bold">Transform Your Body!&#128170;</h3>
+            <p>
+              Witness an incredible
+              <strong class="fw-semibold">transformation</strong> of your body
+              as you tone, and strengthen with
+              <strong class="fw-semibold">targeted</strong> workouts and
+              <strong class="fw-semibold">personalized</strong> nutrition plans,
+              unlocking the best version of yourself.&#127947;
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+    <hr class="mb-0 text-secondary" />
+    <footer class="text-center p-3">
+      <p class="mb-1">Copyright &copy; 2024 Patrik Horánszki</p>
+      <p class="mb-2">
+        This personal project was made for a university assignment.
+      </p>
+      <a href="https://github.com/hptrk">
+        <img src="media/github.png" width="40" alt="Logo of GitHub" />
+      </a>
+    </footer>
+  </body>
+</html>

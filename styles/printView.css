@@ -1,0 +1,50 @@
+@media print {
+  * {
+    color: black !important;
+  }
+
+  nav,
+  details,
+  video,
+  footer,
+  .carousel {
+    display: none !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+  div.row {
+    margin: 0 !important;
+  }
+
+  a::after {
+    content: ' (' attr(href) ')';
+  }
+
+  table > * {
+    color: black !important;
+    background-color: white !important;
+    border: none !important;
+  }
+
+  /* remove row striping  */
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: white !important;
+    box-shadow: none; /* bootstrap operates with shadow coloring */
+  }
+
+  img {
+    max-width: 50% !important;
+  }
+
+  .print {
+    display: block;
+    border: 1px dashed gray;
+    padding: 10px;
+    max-width: fit-content;
+  }
+}

@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #f97316;
+  --secondary-color: #f1f5f9;
+  --bg: #fffbeb;
+  --bg-container: #fef3c7;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ------ BACKGROUNDS ------ */
+footer {
+  background-image: url(../media/footer-bg.png);
+  background-position: center;
+  background-size: contain;
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+.bg {
+  background-color: var(--bg);
+}
+.bg-container {
+  background-color: var(--bg-container);
+}
+.iconWithBg1 {
+  background: linear-gradient(
+    120deg,
+    rgb(241, 202, 220) 20%,
+    rgb(219, 39, 119) 100%
+  );
+}
+.iconWithBg2 {
+  background: linear-gradient(
+    120deg,
+    rgb(209, 250, 229) 20%,
+    rgb(13, 148, 136) 100%
+  );
+}
+.iconWithBg3 {
+  background: linear-gradient(
+    120deg,
+    rgb(191, 219, 254) 20%,
+    rgb(2, 132, 199) 100%
+  );
+}
+.iconWithBg4 {
+  background: linear-gradient(
+    120deg,
+    rgb(254, 215, 170) 20%,
+    rgb(154, 52, 18) 100%
+  );
+}
+.iconWithBg5 {
+  background: linear-gradient(
+    120deg,
+    rgb(221, 214, 254) 20%,
+    rgb(107, 33, 168) 100%
+  );
+}
+.iconWithBg6 {
+  background: linear-gradient(
+    120deg,
+    rgb(254, 205, 211) 20%,
+    rgb(159, 18, 57) 100%
+  );
+}
+.bg-features,
+td {
+  background-color: #fde68a !important;
+}
+.nav-link.active {
+  background-color: #fef3c7;
+  color: #7c2d12 !important;
+}
+.nav-link:hover {
+  background-color: #fef3c7;
+}
+
+/* ------ IMAGES ------ */
+.preview {
+  transition: all 0.3s;
+}
+.preview:hover {
+  filter: brightness(80%);
+}
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ------ SKIP TO CONTENT ------ */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+}
+.skip-to-content:focus {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* ------ LARGE FONT SIZE ------ */
+.large {
+  font-size: 150% !important;
+  background-color: white !important;
+  color: black !important;
+}
+.large * {
+  background-color: white !important;
+  color: black !important;
+}
+.large nav * {
+  flex-direction: column;
+  background-color: black !important;
+  color: white !important;
+}
+
+/* ------ LINKS ------ */
+a:not(nav *):visited {
+  color: black !important;
+  text-decoration-color: black !important;
+}
+
+/* ------ PRINT ------ */
+.print {
+  display: none;
+}
