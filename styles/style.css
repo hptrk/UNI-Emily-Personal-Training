@@ -120,7 +120,7 @@ td {
 }
 
 /* ------ LINKS ------ */
-a:not(nav *):visited {
+a:not(nav *):not(.btn):visited {
   color: black !important;
   text-decoration-color: black !important;
 }
